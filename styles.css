@@ -8,7 +8,8 @@
 
 
 body {
-    background-color: #8a51fc;
+    background: url("./assets/dinheiro.jpg");
+    background-size: cover;
 }
 
 
