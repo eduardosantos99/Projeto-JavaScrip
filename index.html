@@ -12,13 +12,14 @@
 </head>
 
 <body>
-    <img class="logo" src="./assets//img/logo.gif" alt="logo-devclub-converter-money">
+    <img class="logo" src="./assets/gif.gif" alt="logo-devclub-converter-money">
 
     <main>
         <label>
             Coverter <b>de</b>
-            <select class="currency-select-one">
+            <select onchange="currencyTeste()" class="currency-select-one">
                 <option value="real">R$ Real Brasileiro</option>
+                <option value="euro">€ Euro</option>
                 <option value="dolar">US$ Dólar Americano</option>
                 <option value="libra">£ libra</option>
                 <option value="bitcoin">₿ Bitcoin</option>
@@ -30,6 +31,7 @@
             Coverter <b>para</b>
             <select class="currency-select">
                 <option value="dolar">US$ Dólar Americano</option>
+                <option value="real">R$ Real Brasileiro</option>
                 <option value="euro">€ Euro</option>
                 <option value="libra">£ libra</option>
                 <option value="bitcoin">₿ Bitcoin</option>
